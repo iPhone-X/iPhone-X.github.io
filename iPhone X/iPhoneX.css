@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.triangle {
+  height: 2vmin;
+  width: 2vmin;
+  position: absolute;
+  z-index: -2;
+  transform: rotate(45deg) skewX(10deg);
+}
+
+.triangle-1 {
+  top: 42vh;
+  left: 68vw;
+  background-color: #DFB382;
+}
+
+.triangle-2 {
+  top: 47vh;
+  left: 58vw;
+  background-color: #DFB382;
+}
+
+.triangle-3 {
+  top: 55vh;
+  left: 36vw;
+  background-color: #DFB382;
+}
+
+.triangle-4 {
+  top: 64vh;
+  left: 87vw;
+  background-color: #DFB382;
+}
+
+.triangle-5 {
+  top: 54vh;
+  left: 56vw;
+  background-color: #DFB382;
+}
+
+.triangle-6 {
+  top: 54vh;
+  left: 40vw;
+  background-color: #DFB382;
+}
+
+.triangle-7 {
+  top: 21vh;
+  left: 42vw;
+  background-color: #DFB382;
+}
+
+.triangle-8 {
+  top: 4vh;
+  left: 21vw;
+  background-color: #DFB382;
+}
+
+.triangle-9 {
+  top: 86vh;
+  left: 54vw;
+  background-color: #DFB382;
+}
+
+.triangle-10 {
+  top: 84vh;
+  left: 32vw;
+  background-color: #DFB382;
+}
+
+.triangle-11 {
+  top: 7vh;
+  left: 61vw;
+  background-color: #38A594;
+}
+
+.triangle-12 {
+  top: 43vh;
+  left: 40vw;
+  background-color: #38A594;
+}
+
+.triangle-13 {
+  top: 11vh;
+  left: 32vw;
+  background-color: #38A594;
+}
+
+.triangle-14 {
+  top: 15vh;
+  left: 35vw;
+  background-color: #38A594;
+}
+
+.triangle-15 {
+  top: 72vh;
+  left: 91vw;
+  background-color: #38A594;
+}
+
+.triangle-16 {
+  top: 12vh;
+  left: 42vw;
+  background-color: #38A594;
+}
+
+.triangle-17 {
+  top: 22vh;
+  left: 92vw;
+  background-color: #38A594;
+}
+
+.triangle-18 {
+  top: 89vh;
+  left: 31vw;
+  background-color: #38A594;
+}
+
+.triangle-19 {
+  top: 73vh;
+  left: 1vw;
+  background-color: #38A594;
+}
+
+.triangle-20 {
+  top: 97vh;
+  left: 76vw;
+  background-color: #38A594;
+}
+
+.triangle-21 {
+  top: 41vh;
+  left: 33vw;
+  background-color: #38A594;
+}
+
+.triangle-22 {
+  top: 93vh;
+  left: 43vw;
+  background-color: #38A594;
+}
+
+.triangle-23 {
+  top: 75vh;
+  left: 50vw;
+  background-color: #38A594;
+}
+
+.triangle-24 {
+  top: 52vh;
+  left: 24vw;
+  background-color: #38A594;
+}
+
+.triangle-25 {
+  top: 40vh;
+  left: 78vw;
+  background-color: #38A594;
+}
+
+.triangle-26 {
+  top: 18vh;
+  left: 7vw;
+  background-color: #38A594;
+}
+
+.triangle-27 {
+  top: 81vh;
+  left: 26vw;
+  background-color: #38A594;
+}
+
+.triangle-28 {
+  top: 66vh;
+  left: 16vw;
+  background-color: #38A594;
+}
+
+.triangle-29 {
+  top: 23vh;
+  left: 55vw;
+  background-color: #38A594;
+}
+
+.triangle-30 {
+  top: 42vh;
+  left: 69vw;
+  background-color: #38A594;
+}
+
+.triangle-31 {
+  top: 86vh;
+  left: 4vw;
+  background-color: #38A594;
+}
+
+.triangle-32 {
+  top: 80vh;
+  left: 31vw;
+  background-color: #38A594;
+}
+
+.triangle-33 {
+  top: 25vh;
+  left: 69vw;
+  background-color: #38A594;
+}
+
+.triangle-34 {
+  top: 32vh;
+  left: 50vw;
+  background-color: #38A594;
+}
+
+.triangle-35 {
+  top: 60vh;
+  left: 53vw;
+  background-color: #38A594;
+}
+
+.triangle-36 {
+  top: 95vh;
+  left: 64vw;
+  background-color: #38A594;
+}
+
+.triangle-37 {
+  top: 30vh;
+  left: 51vw;
+  background-color: #38A594;
+}
+
+.triangle-38 {
+  top: 44vh;
+  left: 81vw;
+  background-color: #38A594;
+}
+
+.triangle-39 {
+  top: 31vh;
+  left: 38vw;
+  background-color: #38A594;
+}
+
+.triangle-40 {
+  top: 70vh;
+  left: 49vw;
+  background-color: #38A594;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.blob {
+  height: 33vmax;
+  width: 33vmax;
+  border-radius: 6vmax;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #38A594;
+  transform: translate(0, calc(-50% - 3vmax)) rotate(45deg);
+  z-index: -1;
+}
+.blob.bottom-blob {
+  background-color: #DFB382;
+  top: initial;
+  top: 100%;
+  left: calc(50% - 33vmax);
+  transform: translate(0, calc(-50% + 3vmax)) rotate(45deg);
+}
+
+.iphone-x {
+  height: 90vmin;
+  width: 44.11vmin;
+  border-radius: 6.13vmin;
+  background-color: white;
+  box-shadow: 0 1vmin 4vmin rgba(0, 0, 0, 0.24), inset 0px 0px 2vmin rgba(0, 0, 0, 0.4);
+}
+.iphone-x .screen {
+  height: calc(100% - 4.54vmin);
+  width: calc(100% - 4.54vmin);
+  border-radius: 4.57vmin;
+  margin: 2.28vmin;
+  position: relative;
+  overflow: hidden;
+}
+.iphone-x .screen .screen-camera {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 17.15vmin;
+  height: 5.7vmin;
+  border-radius: 3vmin;
+  box-shadow: inset 0px 0px 1.7vmin rgba(0, 0, 0, 0.16);
+  padding: 2.85vmin 1vmin;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: bottom;
+}
+.iphone-x .screen .screen-camera .circle {
+  background-color: rgba(0, 0, 0, 0.24);
+  height: 1.5vmin;
+  width: 1.5vmin;
+  border-radius: 50%;
+}
+.iphone-x .screen .screen-camera .circle.small {
+  height: 1vmin;
+  width: 1vmin;
+}
+.iphone-x .screen .screen-camera .line {
+  background-color: rgba(0, 0, 0, 0.24);
+  height: 1.05vmin;
+  width: 4vmin;
+  border-radius: 0.3vmin;
+}
+.iphone-x .screen .screen-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-x .screen .screen-content .slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vmin;
+  opacity: 0;
+  transform: translateY(5vmin);
+  transition: opacity .4s ease, transform .4s ease;
+  background: -webkit-linear-gradient(#38A594, #DFB382);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iphone-x .screen .screen-content .slide.active {
+  transform: translateY(0%);
+  opacity: 1;
+}
+.iphone-x .screen .screen-content .slide .ios-11-logo {
+  font-size: 12vmin;
+  background: -webkit-linear-gradient(#38A594, #DFB382);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
